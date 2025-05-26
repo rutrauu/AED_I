@@ -8,7 +8,7 @@ class TelaVeiculo (QMainWindow):
         super().__init__()
 
         self.setWindowTitle (titulo)
-        self.setGeometry(100, 150, 303, 300)
+        self.setGeometry(0, 0, 300, 300)
         self.layout = QVBoxLayout()
 
         self.definirLayout()
