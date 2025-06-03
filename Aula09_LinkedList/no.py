@@ -1,5 +1,5 @@
-class No:
+class Node:
 
     def __init__(self, valor) -> None:
-        self.dado = valor
-        self.prox = None
+        self.value = valor
+        self.next = None
